@@ -20,6 +20,6 @@ It took around **6 hrs**. It was a hefty challenge, writing the HTML code, makin
 
 ## Live link
 
-[Project Link](https://google.com "Netlify")
+[Live link](https://project11-nu.vercel.app/)
 
 
