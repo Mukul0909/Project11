@@ -17,6 +17,8 @@ It took around **6 hrs**. It was a hefty challenge, writing the HTML code, makin
 ## Focus Learning
 - Precise HTML structure
 - Footer
+- Grid Display
+- Media queries
 
 ## Live link
 
