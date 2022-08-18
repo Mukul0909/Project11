@@ -341,7 +341,7 @@ nav{
     line-height: 1.6;
 }
 
-.info{
+.infotainment{
     display: flex;
     align-items: center;
     margin-top: 2%;
@@ -383,7 +383,7 @@ nav{
     margin-top: 2%;
 }
 
-footer{
+.footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -399,7 +399,7 @@ footer{
     font-weight: 300;
 }
 
-footer ul li{
+.footer ul li{
     list-style-type: none;
     padding: 10px 0px;
 }
@@ -408,12 +408,191 @@ footer ul li{
     margin-top: -3%;
 }
 
-.Social-Media{
+.social{
     margin-top: -9%;
     text-align: center;
 }
 
-.Social-Media img{
+.social img{
     width: 30px;
     margin-top:10%;
+}
+
+@media only screen and (max-width: 500px)
+{
+    .hero img,.nav-list, .btn
+    {display:none;}
+    
+    .left{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    .left :nth-child(1){
+        font-size: 27px;
+        width: 95%;
+        margin-left: 15px;
+    }
+    
+    .left :nth-child(2){
+        font-size: 15px;
+        width: 95%;
+        margin-left:10px;
+    }
+    .logo img{
+        padding: 0;
+        margin-left: -20%;
+    }
+
+    .hero{
+        margin-top: 50px;
+    }
+    .left :nth-child(3){
+        width: 50%;
+        margin: 0 auto;
+        /* margin-top: 100px; */
+    }
+
+    .hero2 .right
+    {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+
+    .hero2 .right :nth-child(1){
+        font-size: 27px;
+        width: 95%;
+        margin-left: 15px;
+    }
+
+    .hero2 .right :nth-child(2){
+        font-size: 15px;
+        width: 95%;
+        margin-left:10px;
+    }
+
+    .hero2 .left{
+        display:none;
+    }
+
+    .hero2 .right :nth-child(3){
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    body :nth-child(4)
+    {
+        margin-top: -2em;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30em;
+        text-align: center;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin-top: 24em; */
+        text-align: center;
+    }
+
+    .content :nth-child(2){
+        margin-top: 2em;
+        margin-left: -6em;
+        /* margin-left: -30em; */
+        width: 120%;
+        
+    }
+    
+    .features{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 5%;
+        margin-top: 5%;
+
+    }
+
+    .price-plans{
+        margin-top: 45em;
+    }
+
+    .price-plans h2{
+        margin-top: 5em;
+        text-align: center;
+    }
+    
+    .plans{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50em;
+    }
+
+    .price-plans{
+        height: 150em;
+        background: linear-gradient(to bottom right,rgb(9, 189, 248), rgb(4, 95, 233) );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .Testimonials{
+        margin-top: 20em;
+    }
+
+    .title article{
+        width: 80%;
+    }
+
+    .reviews{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 5%;
+        margin-top: 5%;
+    }
+
+    .Register{
+        margin-top: 29em;
+    }
+
+    .Register :nth-child(2){
+        display: none;
+    }
+
+    .awesome{
+        font-size: 20px;
+    }
+
+    .footer{
+        margin-top:14em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Menu{
+        margin-top:2em;
+    }
+
+    
+    .Links{
+        margin-top:2em;
+    }
+
+    .Overview{
+        margin-top:10em;
+    }
+
+    .social{
+        margin-top: 2em;
+    }
 }
